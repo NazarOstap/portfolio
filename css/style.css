@@ -19,12 +19,13 @@ img{
     float: left;
 }
 .info {
- 
+
     margin-top: 20px;
     width:30%;
     height: 200px;
     text-align: right;
     margin: 0 70%;
+
 }
 
 .header {
@@ -39,7 +40,7 @@ img{
     width: 80% ;
     height: auto;
     margin: 0 auto;
-   
+
 }
 
 .name {
@@ -53,6 +54,10 @@ name h1{
 .name h2{
     color: #027373;
 }
+h2 {
+    text-align: center;
+    color: darkgray;
+}
 .carier{
     margin-top: 20px;
     height: 250px;
@@ -60,17 +65,17 @@ name h1{
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(carieren.png);
-    
+
 }
- 
+
 .can{
     margin-top: 30px;
     height: 330px;
     background-size: 90%;
     background-repeat: no-repeat;
-    
-    
-   
+
+
+
 }
 .must{
     margin-top: 0px;
@@ -80,7 +85,7 @@ name h1{
     background-position: top;
     background-repeat: no-repeat;
     float: left;
-    
+
 }
 .aboutme{
     height:380px;
@@ -89,6 +94,7 @@ name h1{
     background-size: 80%;
     background-position: top;
     background-repeat: no-repeat;
+    border: 1px solid black;
 }
 .hidden {
   opacity: 0;
@@ -106,7 +112,7 @@ name h1{
     background-repeat: no-repeat;
     background-image: url(can1en.png);
     width: 50%;
-    
+
 }
 
 #rigth {
@@ -115,16 +121,19 @@ name h1{
     background-size: 90%;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url(can2en.png); 
+    background-image: url(can2en.png);
     width: 50%;
     padding: 0px;
-}        
+}
 
 .footer{
     height: 30px;
     color: #d9dcdb;
     text-align: right;
-    
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+
+
 }
 
 
@@ -132,7 +141,7 @@ name h1{
 /* Адаптация под екраны до 600px (мобильние устройства) */
 
 @media screen and (max-width: 600px){
-   
+
     .header{
         background-position: left center;
         background-size: 170px 170px;
@@ -153,7 +162,7 @@ name h1{
     text-align: center;
     padding: 0px;
     float: none;
-    
+
 }
 
 .mname p {
@@ -193,10 +202,10 @@ name h1{
     background-repeat: no-repeat;
     background-image: url(canmoben.png);
     width: 100%;
-    
+
 }
  #rigth{
-     display: none;   
+     display: none;
     }
 .must{
     top: 5%;
@@ -235,14 +244,14 @@ name h1{
     }
 }
 @media screen and (min-width: 600px) and (max-width: 768px){
-    
+
     .can {
     height: 200px;
     }
-    
+
     #left {
     float: left;
-    height: 200px; 
+    height: 200px;
     }
 
     #rigth {
@@ -254,14 +263,14 @@ name h1{
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    
+
     .can {
     height: 270px;
     }
-    
+
     #left {
     float: left;
-    height: 270px; 
+    height: 270px;
     }
 
     #rigth {
@@ -270,18 +279,18 @@ name h1{
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px){
-    
+
     .carier{
         background-size: 90%;
     }
-    
+
     .can {
     height: 380px;
     }
-    
+
     #left {
     float: left;
-    height: 380px; 
+    height: 380px;
     }
 
     #rigth {
@@ -296,20 +305,20 @@ name h1{
     }
 }
 @media screen and (min-width: 1440px) and (max-width: 2000px){
-    
-    
+
+
     p{font-size: 20px;}
     .carier{
         height: 400px;
     }
-    
+
     .can {
     height: 500px;
     }
-    
+
     #left {
     float: left;
-    height: 500px; 
+    height: 500px;
     }
 
     #rigth {
@@ -330,10 +339,10 @@ name h1{
     .can {
     height: 640px;
     }
-    
+
     #left {
     float: left;
-    height: 640px; 
+    height: 640px;
     }
 
     #rigth {
@@ -342,7 +351,7 @@ name h1{
     }
     .must{
         height: 700px;
-        
+
     }
     .aboutme{
         height: 800px;
